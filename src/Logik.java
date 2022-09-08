@@ -60,7 +60,6 @@ public class Logik {
                 }
             }
             if (count0 > board.getN()/2 || count1 > board.getN()/2) {
-//                throw new InputMismatchException("Numbers of 0's and 1's on the same row are not the same");
                 return false;
             }
         }
@@ -79,7 +78,7 @@ public class Logik {
                 }
             }
             if (count0 > board.getN()/2 || count1 > board.getN()/2) {
-//                throw new InputMismatchException("Numbers of 0's and 1's on the same row are not the same");
+
                 return false;
             }
         }

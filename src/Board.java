@@ -90,5 +90,4 @@ public class Board {
         }
         System.out.println(Arrays.deepToString(theboard).replace("], ", "]\n").replace("[[", "[").replace("]]", "]"));
     }
-
 }
