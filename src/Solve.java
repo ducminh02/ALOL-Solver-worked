@@ -71,11 +71,8 @@ public class Solve {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         Board board = new Board(n);
-
         board.printemptyboard();
-
         board.fillintokensplit();
-
         Logik logic = new Logik(board);
         System.out.println("Checking if board is valid...");
         if (!logic.checkall(board)) {
