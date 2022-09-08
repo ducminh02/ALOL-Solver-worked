@@ -116,18 +116,7 @@ public class Logik {
         return true;
     }
 
-    public void check2op () {
-        HashSet<char[]> checker = new HashSet<>();
-        for (int i = 0; i < board.getN(); i++) {
-            char[] a = board.getTheboard()[i];
-            checker.add(a);
-        }
 
-        if (checker.size() != board.getN()) {
-            String str = "At least 2 duplicate rows found";
-            throw new InputMismatchException(str);
-        }
-    }
     public boolean checkall(Board boardd) {
         return checkrule1(boardd) && checkrule2(boardd) && checkrule3(boardd);
     }
